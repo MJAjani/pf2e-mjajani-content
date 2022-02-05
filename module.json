@@ -52,4 +52,8 @@
 		"pf2e"
 	],
 	"minimumSystemVersion": "3.3.0.10241"
+	"url": "https://github.com/MJAjani/pf2e-mjajani-content",
+	"manifest": "https://raw.githubusercontent.com/MJAjani/pf2e-mjajani-content/master/module.json",
+	"download": "https://github.com/MJAjani/pf2e-mjajani-content/archive/refs/heads/master.zip"
+
 }
