@@ -39,6 +39,15 @@
 		"private": false 
 	},
 	{
+		"label": "Centaur Ancestry",
+		"type": "Item",
+		"name": "centaur-ancestry",
+		"path": "./packs/centaur-ancestry.db",
+		"system": "pf2e",
+		"package": "pf2e-mjajani-content",
+		"private": false 
+	},
+	{
 		"label": "Samurai Archetype",
 		"type": "Item",
 		"name": "samurai-archetype",
