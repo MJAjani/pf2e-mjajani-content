@@ -1,0 +1,55 @@
+{
+	"name": "pf2e-mjajani-content",
+	"title": "PF2e MJAjani Content",
+	"description": "A module in which you can find everything made by MJAjani.",
+	"author": "MJAjani",
+	"version": "1.0",
+	"minimumCoreVersion": "9.245",
+	"compatibleCoreVersion": "9.249",
+	"flags": {
+		"pf2e-mjajani-content": {
+			"pf2e-homebrew": {
+				"featTraits": {
+					"samurai": "Samurai",
+					"combo": {
+						"label": "Combo",
+						"description": "<p>The combo trait indicates that an ability with the combo trait has affinity with others. If in the same round the previous action had the combo trait but had a different name, this new action gains a +1 bonus to damage per combo action done this turn.</p>"
+					}
+				}
+			}
+		}
+	},
+	"packs": [
+	{
+		"label": "Samurai Class",
+		"type": "Item",
+		"name": "samurai-class",
+		"path": "./packs/samurai-class.db",
+		"system": "pf2e",
+		"package": "pf2e-mjajani-content",
+		"private": false
+	},
+	{
+		"label": "Dragoon Archetype",
+		"type": "Item",
+		"name": "dragoon-archetype",
+		"path": "./packs/dragoon-archetype.db",
+		"system": "pf2e",
+		"package": "pf2e-mjajani-content",
+		"private": false 
+	},
+	{
+		"label": "Samurai Archetype",
+		"type": "Item",
+		"name": "samurai-archetype",
+		"path": "./packs/samurai-archetype.db",
+		"system": "pf2e",
+		"package": "pf2e-mjajani-content",
+		"private": false 
+	}	
+	],
+	"system": [	
+		"pf2e"
+	],
+	"minimumSystemVersion": "3.3.0.10241"
+}
