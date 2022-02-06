@@ -3,13 +3,14 @@
 	"title": "PF2e MJAjani Content",
 	"description": "A module in which you can find everything made by MJAjani.",
 	"author": "MJAjani",
-	"version": "1.0",
+	"version": "1.0.2",
 	"minimumCoreVersion": "9.245",
 	"compatibleCoreVersion": "9.249",
 	"flags": {
 		"pf2e-mjajani-content": {
 			"pf2e-homebrew": {
 				"featTraits": {
+					"centaur": "Centaur",
 					"samurai": "Samurai",
 					"combo": {
 						"label": "Combo",
@@ -60,7 +61,7 @@
 	"system": [	
 		"pf2e"
 	],
-	"minimumSystemVersion": "3.3.0.10241"
+	"minimumSystemVersion": "3.3.0.10241",
 	"url": "https://github.com/MJAjani/pf2e-mjajani-content",
 	"manifest": "https://raw.githubusercontent.com/MJAjani/pf2e-mjajani-content/master/module.json",
 	"download": "https://github.com/MJAjani/pf2e-mjajani-content/archive/refs/heads/master.zip"
